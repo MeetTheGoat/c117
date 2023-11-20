@@ -1,0 +1,38 @@
+body {
+    background-color: blue;
+}
+
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#timer{
+    font-size: 20px;
+    float:right;
+    margin-right: 5px;
+    font-family: cursive;
+}
+
+#sketch_to_be_drawn{
+    color: lightgreen;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
